@@ -39,4 +39,4 @@ class MyListener(StreamListener):
 		return True
 		
 twitter_stream = Stream(auth,MyListener())
-twitter_stream.filter(track=["#obama"])
+twitter_stream.filter(track=["#obama","#Drumph"])
